@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/frozit-ipl/static/css/main.ec301751.css",
+    "main.js": "/frozit-ipl/static/js/main.52b68b87.js",
+    "static/media/bg.jpg": "/frozit-ipl/static/media/bg.ca16c9f0a6cfb99a0f13.jpg",
+    "index.html": "/frozit-ipl/index.html",
+    "main.ec301751.css.map": "/frozit-ipl/static/css/main.ec301751.css.map",
+    "main.52b68b87.js.map": "/frozit-ipl/static/js/main.52b68b87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec301751.css",
+    "static/js/main.52b68b87.js"
+  ]
+}
