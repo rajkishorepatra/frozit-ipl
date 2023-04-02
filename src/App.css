@@ -1,38 +1,87 @@
-.App {
+.footer {
+  background-color: #212121;
+  color: #949494;
+  height: auto;
+  margin-bottom: -2em;
+}
+
+.footer span {
+  color: #ffffff;
+}
+
+
+.home-newsletter {
+  padding: 40px 0 60px 0;
+  background: rgb(44, 41, 41);
+  /* border-radius: 10px; */
+}
+
+.home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.home-newsletter .single h2 {
+  font-size: 30px;
   color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #243c4f;
+}
+
+.home-newsletter .single .form-control::placeholder {
+  color: #fff;
+}
+
+.home-newsletter .single .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: #243c4f;
+  color: #fff;
+}
+
+
+.about{
+  background: rgb(44, 41, 41);
+}
+
+.aboutIns{
+  text-align: center;
+  padding: 15px;  
+}
+
+.iplLogo{
+  display: inline-block;
+  /* max-width: 300px; */
+  text-align: left;
+  /* padding: 30px;
+  margin: 15px; */
+  vertical-align: top;
+}
+
+.iplLogo img{
+  
+  height: 50vh;
+}
+
+.terms{
+  display: inline-block;
+  /* max-width: 150px; */
+  text-align: left;
+  padding: 30px;
+  margin: 15px;
 }
