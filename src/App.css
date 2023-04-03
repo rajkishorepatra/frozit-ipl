@@ -12,8 +12,6 @@
 
 .home-newsletter {
   padding: 40px 0 60px 0;
-  background: rgb(44, 41, 41);
-  /* border-radius: 10px; */
 }
 
 .home-newsletter .single {
@@ -50,38 +48,33 @@
 .home-newsletter .single .btn {
   min-height: 50px;
   border-radius: 0 20px 20px 0;
-  background: #243c4f;
-  color: #fff;
+  background: #fff000;
+  color: #000000;
 }
 
 
-.about{
-  background: rgb(44, 41, 41);
+.imgSize{
+  height: 95vh;
 }
 
+@media only screen and (max-width: 1000px) {
+  .imgSize{
+    height: auto;
+  }
+}
 .aboutIns{
   text-align: center;
   padding: 15px;  
 }
 
-.iplLogo{
-  display: inline-block;
-  /* max-width: 300px; */
-  text-align: left;
-  /* padding: 30px;
-  margin: 15px; */
-  vertical-align: top;
-}
-
-.iplLogo img{
-  
-  height: 50vh;
-}
-
 .terms{
   display: inline-block;
-  /* max-width: 150px; */
   text-align: left;
   padding: 30px;
   margin: 15px;
+}
+
+.logoImg{
+  display: flex;
+  justify-content: space-between;
 }
