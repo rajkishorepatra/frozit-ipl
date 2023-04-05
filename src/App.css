@@ -1,3 +1,7 @@
+*{
+  font-family: "Medium";
+}
+
 .footer {
   background-color: #212121;
   color: #949494;
@@ -54,7 +58,7 @@
 
 
 .imgSize{
-  height: 95vh;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -63,18 +67,22 @@
   }
 }
 .aboutIns{
-  text-align: center;
-  padding: 15px;  
-}
-
-.terms{
-  display: inline-block;
+  /* margin: auto; */
   text-align: left;
-  padding: 30px;
-  margin: 15px;
+  padding: 15px;  
 }
 
 .logoImg{
   display: flex;
   justify-content: space-between;
+}
+
+.terms{
+  display: inline-block;
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.terms li{
+  margin: 10px;
 }
